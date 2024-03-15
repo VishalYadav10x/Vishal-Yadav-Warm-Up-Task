@@ -1,0 +1,127 @@
+/* index.css */
+
+/* Global Styles */
+body {
+    /* font-family: Arial, sans-serif; */
+    margin: 0;
+    padding: 0;
+   font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    height: 100vh;
+}
+
+/* Header Section */
+.heading {
+    text-align: center;
+    color: #1E0E62;
+
+}
+
+.desciption {
+    text-align: center;
+
+
+}
+
+.rounded-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+    /* background-color: #007bff; */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Team Cards Section */
+.team-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 1px solide grey;
+    color: #1E0E62;
+}
+
+.card {
+    width: 250px;
+    margin: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.img-div {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.img-div img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.bio_wrapper {
+    padding: 0 20px;
+    text-align: center;
+}
+
+.name {
+    margin: 10px 0;
+}
+
+.role {
+    margin: 5px 0;
+    color:#151439;
+
+}
+
+.social_links {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    /* width: 21px; */
+height: 38px;
+top: 326.8px;
+left: 55px; 
+font-family: FontAwesome;
+font-size: 22px;
+line-height: 38px;
+letter-spacing: 0px;
+text-align: center;
+
+
+}
+
+.social_links img {
+    width: 30px;
+    height: 30px;
+    margin: 0 5px;
+}
+
+/* Testimonial Section */
+.testimonial {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 50px auto;
+    max-width: 600px;
+}
+
+.testimonial h2 {
+    margin-bottom: 20px;
+}
+
+.testimonial p {
+    font-style: italic;
+}
